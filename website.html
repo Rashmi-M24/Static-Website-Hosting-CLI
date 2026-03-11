@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <style>
+        body {
+            background-color: #ffffff; /* White background */
+            color: #000000; /* Black text */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 40px;
+        }
+        h1 {
+            color: #000000; /* Black heading */
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .status {
+            font-weight: bold;
+            color: green;
+        }
+        .info {
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Static Website!</h1>
+    <p>This website is deployed using <strong>AWS CLI</strong> and <strong>Jenkins</strong>. It demonstrates a fully automated static website deployment process.</p>
+    
+    <p class="status">Deployment Status: Successful ✅</p>
+
+    <div class="info">
+        <p>Bucket: <strong>static-wesite-hosting1234</strong></p>
+        <p>Deployed via: <strong>Jenkins Pipeline</strong></p>
+    </div>
+</body>
+</html>
